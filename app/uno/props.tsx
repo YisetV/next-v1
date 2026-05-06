@@ -1,6 +1,5 @@
-export default function Props({nombre}){
-
-    return(
+export default function Props({ nombre }: { nombre: string }) {
+    return (
         <div>
             {nombre}
         </div>
